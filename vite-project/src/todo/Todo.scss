@@ -1,0 +1,46 @@
+
+body{
+    color: #d6d6d6;
+    background-color: #242424;
+}
+
+.addList{
+    display: flex;
+    margin-bottom: 80px;
+    &__textbox{
+        width: 300px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    &__btn{
+        width: 70px;
+        height: 35.5px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        background-color: orangered;
+    }
+}
+
+.listItems{
+    &__item{
+        background-color: #3E3E3E;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 5px;
+
+        .btn{
+            width: 100px;
+            height: 20px;
+            line-height: 0;
+            border: none;
+            border-radius: 20px;
+            background-color: orangered;
+            color: white;
+        }
+    }
+}
